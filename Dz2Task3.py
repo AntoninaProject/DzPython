@@ -1,5 +1,10 @@
 #Даны две строки. Посчитайте сколько раз каждый символ первой строки встречается во второй
-s1 = "one"
-s2 = "onetwonine"
-k = s1.count(s2)
-print("k = ", k)
+word = 'one'
+phrase = 'onetwonine'
+
+for el in word:
+    count = 0
+    for letter in phrase:
+        if letter == el:
+            count +- 1
+    print(f'{el} - {count}')
