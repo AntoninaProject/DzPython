@@ -1,11 +1,17 @@
 #Создайте пользовательский аналог метода map().
 
+from time import time
 from random import randint
-def our map(func, matrix):
+from os import system
+
+
+def our_map(func, matrix):
     return (func(el) for el in matrix)
+
 
 def power (x):
     return x*x
+
 
 nums =[1, 3, 12, 5]
 
